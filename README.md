@@ -2,6 +2,10 @@
 
 This project showcases a responsive webpage featuring the Samsung Bespoke Jet™, complete with animations, interactive elements, and dynamic content updates.
 
+## Live Demo
+
+You can view the live demo of the project [here](https://dmitryiobukhov.github.io/samsung-bespoke-jet/).
+
 ## Overview
 
 The Samsung Bespoke Jet Project is designed to provide users with an interactive experience, highlighting the unique features of the Samsung Bespoke Jet™. The webpage includes animations, dynamic text updates, and responsive design for optimal viewing on various devices.
