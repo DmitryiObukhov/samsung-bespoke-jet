@@ -1,0 +1,42 @@
+.bespoke-jett-left {
+    font-family: 'Samsung Sharp Sans Bold', sans-serif;
+    font-size: 5rem;
+    color: white;
+    line-height: 0.8;
+    bottom: 10%;
+    position: relative;
+}
+
+.bespoke-jett-left span {
+    font-family: 'Samsung Sharp Sans Bold', sans-serif;
+    font-size: 2.5rem;
+}
+
+.bespoke-jett-left .bespoke-regular {
+    font-family: 'Samsung Sharp Sans Regular', sans-serif;
+    font-size: 5rem;
+}
+
+.bespoke-jett-left.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.site-details {
+    font-family: 'Samsung Sharp Sans Regular', sans-serif;
+    font-size: 1rem;
+    margin-top: auto;
+    color: white;
+    transition: color 1s ease-in-out;
+
+}
+
+.site-details.black {
+    color: black;
+}
+
+.samsung-logo, .bespoke-jett-left {
+    position: absolute;
+    left: calc(-100% - 3rem);
+    transition: left 1.2s ease-out;
+}

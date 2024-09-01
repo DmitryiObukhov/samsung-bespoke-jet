@@ -1,0 +1,57 @@
+.arrow-container {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    z-index: 10;
+}
+
+.arrow-container.fade-in {
+    opacity: 1;
+}
+
+@keyframes pulseImage {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.35);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.arrow-container a img {
+    height: 1.5rem;
+    width: 0.75rem;
+    padding: 0 0.25rem;
+    transition: transform 0.2s ease, filter 0.2s ease;
+    animation: pulseImage 2s 3;
+    animation-delay: 4.5s;
+}
+
+.arrow-container:hover img {
+    animation: none;
+}
+
+.arrow-left img:active,
+.arrow-right img:active {
+    transform: scale(0.7);
+    filter: invert(100%) grayscale(100%) brightness(50%);
+}
+
+.no-animation {
+    animation: none !important;
+}
+
+#current-slide {
+    font-size: 2rem;
+    font-family: 'Samsung Sharp Sans Medium', sans-serif;
+}
+

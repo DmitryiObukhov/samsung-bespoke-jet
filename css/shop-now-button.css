@@ -1,0 +1,53 @@
+.shop-now-container {
+    display: flex;
+    align-items: flex-start; /* Выравнивание по левому краю */
+    margin-top: 2rem; /* Отступ сверху, если нужно */
+}
+
+.shop-now-button {
+    width: 15.625rem; /* Установите нужную ширину кнопки */
+    height: 6.25rem; /* Установите нужную высоту кнопки */
+    background-image: url('../images/Button.svg'); /* Путь к изображению кнопки */
+    background-size: cover; /* Изображение полностью охватывает кнопку */
+    background-position: center; /* Центрирует изображение */
+    text-decoration: none; /* Убирает подчеркивание ссылки */
+    color: black;
+    font-size: 2rem; /* Размер текста */
+    font-weight: bold; /* Толщина шрифта */
+    opacity: 0; /* Начальное состояние кнопки */
+    transition: transform 0.3s ease-in-out; /* Плавное изменение масштаба и прозрачности */
+    animation: pulse 2s 10; /* Применяем анимацию пульсирования */
+    animation-delay: 4.5s;
+    display: flex; /* Обеспечивает правильное центрирование текста */
+    align-items: center; /* Вертикальное выравнивание текста */
+    justify-content: center; /* Горизонтальное выравнивание текста */
+    z-index: 10;
+}
+
+.shop-now-button.fade-in {
+    opacity: 1;
+}
+
+.shop-now-button:hover {
+    animation: none; /* Останавливаем анимацию при наведении */
+    transform: scale(1.06);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.04);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.button-text {
+    position: absolute; /* Помещает текст поверх изображения */
+    z-index: 11; /* Убедитесь, что текст находится выше изображения */
+    font-family: 'SamsungOne 400', sans-serif;
+}
+

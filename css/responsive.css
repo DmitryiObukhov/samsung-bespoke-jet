@@ -1,0 +1,163 @@
+@media only screen and (max-width: 1612px) {
+    .headline {
+        font-size: 2.125rem;
+    }
+
+    .headline .kitchn-logo {
+        margin-bottom: 0.5rem;
+        height: 2.125rem;
+    }
+
+    .comments {
+        line-height: 1.4;
+    }
+
+    .comments span {
+        font-size: 1.1rem;
+    }
+
+    .read-more {
+        font-size: 1.1rem;
+    }
+
+    .bespoke-jett {
+        font-size: 2.8rem;
+    }
+}
+
+@media only screen and (min-width: 2560px) and (min-height: 1440px) {
+    .main-container {
+        width: 70%;
+    }
+
+    .headline {
+        font-size: 4.2rem;
+    }
+
+    .comments span {
+        font-size: 1.8rem;
+    }
+
+    .read-more {
+        font-size: 1.8rem;
+    }
+
+    .headline .kitchn-logo {
+        height: 4.1rem;
+        padding-right: 1.75rem;
+    }
+
+    .headline-move-down {
+        margin-top: 10rem;
+    }
+
+    .arrow-container {
+        margin-top: auto;
+    }
+
+    .shop-now-container {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (min-width: 3840px) and (min-height: 2160px) {
+    .main-container {
+        height: 75%;
+        width: 70%;
+    }
+
+    .headline {
+        font-size: 5rem;
+    }
+
+    .headline-move-down {
+        margin-top: 15rem;
+    }
+
+    .comments span {
+        font-size: 2.5rem;
+    }
+
+    .read-more {
+        font-size: 2.5rem;
+    }
+
+    .headline .kitchn-logo {
+        height: 5.1rem;
+        padding-right: 2.75rem;
+    }
+
+    .arrow-container {
+        margin-top: auto;
+    }
+    
+    .shop-now-container {
+        margin-top: 4rem;
+    }
+
+    .site-details {
+        font-size: 2rem;
+    }
+
+    .samsung-logo {
+        width: 25rem;
+        height: auto;
+    }
+
+    .bespoke-jett {
+        font-size: 4.125rem;
+    }
+
+    .shop-now-button {
+        width: 18.625rem;
+        height: 7.25rem;
+    }
+
+    .bespoke-jett-left {
+        font-size: 8rem;
+    }
+    
+    .bespoke-jett-left span {
+        font-size: 4.5rem;
+    }
+    
+    .bespoke-jett-left .bespoke-regular {
+        font-size: 8rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .headline {
+        font-size: 1.725rem;
+    }
+
+    .headline .kitchn-logo {
+        height: 1.75rem;
+    }
+
+    .comments span {
+        font-size: 1.2rem;
+    }
+
+    .read-more {
+        font-size: 1.2rem;
+    }
+
+    .arrow-container {
+        margin-top: auto;
+    }
+
+    .main-container {
+        width: 95%;
+        height: 95%;
+    }
+
+    .shop-now-container {
+        margin-top: 1rem;
+    }
+
+    .bespoke-jett {
+        font-size: 2.3rem;
+    }
+}
+

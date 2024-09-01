@@ -1,0 +1,49 @@
+.comments {
+    font-family: 'Samsung Sharp Sans Medium', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-top: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    width: 90%;
+    height: 10rem;
+    display: inline;
+}
+
+.comments.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.comments span {
+    font-size: 1.2rem;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.slide-in-right {
+    transform: translateX(-3%);
+    opacity: 0;
+}
+
+.slide-in-left {
+    transform: translateX(3%);
+    opacity: 0;
+}
+
+.slide-out-right {
+    transform: translateX(3%);
+    opacity: 0;
+}
+
+.slide-out-left {
+    transform: translateX(-3%);
+    opacity: 0;
+}
+
+.read-more {
+    text-decoration: none;
+    color: gray;
+    font-size: 1.3rem;
+}

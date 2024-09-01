@@ -1,0 +1,59 @@
+.headline {
+    font-family: 'Samsung Sharp Sans Bold', sans-serif;
+    font-size: 3.125rem;
+    text-align: left;
+    margin-top: 4rem;
+    position: relative;
+}
+
+.headline span {
+    display: inline-block;
+    position: relative;
+    left: -100%;
+    opacity: 0;
+    animation: slideIn 1s ease-in-out forwards;
+}
+
+.headline span:nth-child(1) {
+    animation-delay: 2s;
+}
+
+.headline span:nth-child(2) {
+    animation-delay: 2.1s;
+}
+
+.headline span:nth-child(3) {
+    animation-delay: 2.2s;
+}
+
+.headline .kitchn-container {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    left: -100%;
+    opacity: 0;
+    animation: slideIn 1s ease-in-out forwards;
+    animation-delay: 2.3s;
+}
+
+.headline .kitchn-logo {
+    padding-right: 0.75rem;
+    vertical-align: middle;
+    margin-bottom: 1rem;
+    display: inline-block;
+    position: relative;
+    left: 0;
+    opacity: 1;
+}
+
+.headline-move-down {
+    transition: margin-top 1s ease-in-out;
+    margin-top: 6rem;
+}
+
+@keyframes slideIn {
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}

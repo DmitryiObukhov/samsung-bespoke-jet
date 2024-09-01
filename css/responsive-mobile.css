@@ -1,0 +1,114 @@
+@media only screen and (max-width: 768px) {
+    .comments span {
+        font-size: 1rem;
+    }
+
+    .read-more {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .main-container {
+        height: 95%;
+        width: 95%;
+        background: url('../images/frame1.png') left/cover no-repeat;
+        transition: none;
+    }
+
+    .main-container::before {
+        transition: none;
+    }
+
+    .main-container.active::before {
+        transform: none;
+    }
+
+    .main-container.active {
+        background-position: left;
+        background-size: cover;
+    }
+
+    .banner-right-side {
+        display: none;
+    }
+
+    .banner-left-side {
+        width: 100%;
+        padding-right: 3rem;
+    }
+
+    .headline {
+        font-size: 1.45rem;
+        margin-bottom: 0;
+    }
+
+    .headline .kitchn-logo {
+        height: 1.5rem;
+    }
+
+    .comments {
+        margin-top: 2rem;
+        padding-left: 1rem;
+        height: 14rem;
+    }
+
+    .comments span {
+        font-size: 0.95rem;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .read-more {
+        font-size: 1.15rem;
+        font-weight: 400;
+        text-decoration: underline;
+        color: white;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .arrow-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #current-slide {
+        color: white;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .shop-now-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-text {
+        color: white;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .site-details {
+        color: black;
+        font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+        transition: none;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .site-details p {
+        margin: 0;
+    }
+
+    .bespoke-jett-left {
+        font-size: 3rem;
+    }
+    
+    .bespoke-jett-left span {
+        font-size: 1.5rem;
+    }
+    
+    .bespoke-jett-left .bespoke-regular {
+        font-size: 3rem;
+    }
+}

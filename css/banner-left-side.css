@@ -1,0 +1,17 @@
+.banner-left-side {
+    width: 55%;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-left-side.active .samsung-logo {
+    left: 3rem;
+}
+
+.banner-left-side.active .bespoke-jett-left {
+    left: 3rem;
+}
