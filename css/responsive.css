@@ -7,6 +7,9 @@
         margin-bottom: 0.5rem;
         height: 2.125rem;
     }
+    
+    .main-container {
+        height: 95%;
 
     .comments {
         line-height: 1.4;
