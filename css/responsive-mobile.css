@@ -14,6 +14,7 @@
         width: 95%;
         background: url('../images/frame1.png') left/cover no-repeat;
         transition: none;
+        background-position: 25% center;
     }
 
     .main-container::before {
@@ -25,7 +26,7 @@
     }
 
     .main-container.active {
-        background-position: left;
+        background-position: 25% center;
         background-size: cover;
     }
 
