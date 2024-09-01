@@ -48,14 +48,14 @@
     }
 
     .comments {
-        margin-top: 2rem;
-        padding-left: 1rem;
-        height: 14rem;
+        margin-top: 1rem;
+        height: 10rem;
+        font-size: 0.95rem;
     }
 
     .comments span {
         font-size: 0.95rem;
-        text-align: center;
+        text-align: left;
         font-weight: 600;
     }
 
@@ -69,7 +69,7 @@
 
     .arrow-container {
         display: flex;
-        justify-content: center;
+        justify-content: left;
     }
 
     #current-slide {
@@ -79,11 +79,10 @@
 
     .shop-now-container {
         display: flex;
-        justify-content: center;
+        justify-content: left;
     }
 
     .button-text {
-        color: white;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     }
 
@@ -110,5 +109,25 @@
     
     .bespoke-jett-left .bespoke-regular {
         font-size: 3rem;
+    }
+
+    .samsung-logo {
+        width: 6.25rem;
+    }
+
+    .headline {
+        margin-top: 0;
+    }
+
+    .headline-move-down {
+        margin-top: 2rem;
+    }
+
+    .arrow-left img, .arrow-right img {
+        filter: invert(1);
+    }
+
+    .shop-now-button {
+        filter: invert(1);
     }
 }
