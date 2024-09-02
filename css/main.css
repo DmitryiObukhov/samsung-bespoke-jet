@@ -13,5 +13,5 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f0f0f0; /* на случай, если изображение не загрузится */
+    background-color: #f0f0f0;
 }

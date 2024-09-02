@@ -3,28 +3,27 @@
     height: auto;
     position: absolute;
     left: 4rem;
-    top: calc(20%); /* Начальная позиция логотипа */
+    top: calc(20%);
     transform: translateY(0);
     animation: moveUp 1s ease forwards;
-    animation-delay: 1.45s; /* Задержка на 1 секунду перед началом анимации */
+    animation-delay: 1.45s;
 }
 
 .samsung-logo {
     top: calc(20%);
-    /* Дополнительные стили для логотипа, если необходимо */
 }
 
 @keyframes moveUp {
     0% {
-        top: calc(20%); /* Начальная позиция */
+        top: calc(20%);
     }
     100% {
-        top: 3rem; /* Финальная позиция */
+        top: 3rem;
     }
 }
 
 .samsung-logo, .bespoke-jett-left {
     position: absolute;
-    left: calc(-100% - 3rem); /* Начальное положение вне видимой области */
+    left: calc(-100% - 3rem);
     transition: left 1.2s ease-out;
 }

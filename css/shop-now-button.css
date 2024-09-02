@@ -1,26 +1,26 @@
 .shop-now-container {
     display: flex;
-    align-items: flex-start; /* Выравнивание по левому краю */
-    margin-top: 2rem; /* Отступ сверху, если нужно */
+    align-items: flex-start;
+    margin-top: 2rem;
 }
 
 .shop-now-button {
-    width: 15.625rem; /* Установите нужную ширину кнопки */
-    height: 6.25rem; /* Установите нужную высоту кнопки */
-    background-image: url('../images/Button.svg'); /* Путь к изображению кнопки */
-    background-size: cover; /* Изображение полностью охватывает кнопку */
-    background-position: center; /* Центрирует изображение */
-    text-decoration: none; /* Убирает подчеркивание ссылки */
+    width: 15.625rem;
+    height: 6.25rem;
+    background-image: url('../images/Button.svg');
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
     color: black;
-    font-size: 2rem; /* Размер текста */
-    font-weight: bold; /* Толщина шрифта */
-    opacity: 0; /* Начальное состояние кнопки */
-    transition: transform 0.3s ease-in-out; /* Плавное изменение масштаба и прозрачности */
-    animation: pulse 2s 10; /* Применяем анимацию пульсирования */
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: 0;
+    transition: transform 0.3s ease-in-out;
+    animation: pulse 2s 10;
     animation-delay: 4.5s;
-    display: flex; /* Обеспечивает правильное центрирование текста */
-    align-items: center; /* Вертикальное выравнивание текста */
-    justify-content: center; /* Горизонтальное выравнивание текста */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 10;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .shop-now-button:hover {
-    animation: none; /* Останавливаем анимацию при наведении */
+    animation: none;
     transform: scale(1.06);
 }
 
@@ -46,8 +46,8 @@
 }
 
 .button-text {
-    position: absolute; /* Помещает текст поверх изображения */
-    z-index: 11; /* Убедитесь, что текст находится выше изображения */
+    position: absolute;
+    z-index: 11;
     font-family: 'SamsungOne 400', sans-serif;
 }
 

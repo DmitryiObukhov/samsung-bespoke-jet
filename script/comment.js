@@ -20,6 +20,7 @@ window.addEventListener('load', () => {
     const commentText = document.querySelector('.comments > span');
     const currentSlide = document.querySelector('#current-slide');
     const bannerRightSide = document.querySelector('.banner-right-side');
+    const transition_duration = 150;
 
     function updateContent(index, direction) {
         const slideOutClass = direction === 'left' ? 'slide-out-left' : 'slide-out-right';
@@ -38,8 +39,8 @@ window.addEventListener('load', () => {
             commentText.classList.add(slideInClass);
             setTimeout(() => {
                 commentText.classList.remove(slideInClass);
-            }, 160);
-        }, 160);
+            }, transition_duration);
+        }, transition_duration);
     }
 
     document.querySelector('.arrow-right').addEventListener('click', (event) => {
